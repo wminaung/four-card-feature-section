@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.very-dark-blue {
+  color: var(--Very-Dark-Blue);
+}
+.grayish-blue {
+  color: var(--Grayish-Blue);
+}
+.h1-span {
+  font-weight: 200;
+}
+h1 {
+  font-weight: 600;
+}
+.h1-p {
+  max-width: 500px;
+}

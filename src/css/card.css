@@ -1,0 +1,49 @@
+.card {
+  margin: 10px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.card-width {
+  width: 311px;
+}
+.card-shadow-1 {
+  box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Cyan);
+
+  transform: translate(0, 50%);
+}
+.card-shadow-2 {
+  box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Red);
+}
+.card-shadow-3 {
+  box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Orange);
+  order: 1;
+}
+.card-shadow-4 {
+  box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Blue);
+  transform: translate(0, 50%);
+}
+.icon-right {
+  text-align: right;
+}
+h2 {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1032px) {
+  .card-shadow-1 {
+    box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Cyan);
+    transform: translate(0, 0);
+  }
+  .card-shadow-2 {
+    box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Red);
+  }
+  .card-shadow-3 {
+    box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Orange);
+    order: 0;
+  }
+  .card-shadow-4 {
+    box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Blue);
+    transform: translate(0, 0);
+  }
+}
