@@ -30,7 +30,7 @@ h2 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 1032px) {
+@media only screen and (max-width: 800px) {
   .card-shadow-1 {
     box-shadow: 1px 1px 7px var(--Grayish-Blue), 0px -4px 0px var(--Cyan);
     transform: translate(0, 0);

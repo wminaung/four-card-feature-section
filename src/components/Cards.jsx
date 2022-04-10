@@ -4,7 +4,7 @@ import "../css/cards.css";
 
 function Cards({ data }) {
   return (
-    <div className="cards" style={{ padding: 15 }}>
+    <div className="cards" style={{ padding: 25 }}>
       {data.map((data) => (
         <Card
           key={data.id}
